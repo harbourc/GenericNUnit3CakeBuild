@@ -3,7 +3,7 @@
 This build script is used to run a collection of NUnit3 tests. The following requirements for your project must be met:
 
 -NUnit NuGet package installed. Version 3.0 or later required
--Text file containing namespace for NUnit tests to be run must be present. See sample files below
+-Text file containing namespace for NUnit tests to be run must be present. Documentation regarding this testfile can be found under NUnit   documentation, here: https://github.com/nunit/docs/wiki/Console-Command-Line
 -(Optional) Build configuration (.config) files must be present if you wish to run your project against anything other than Debug
 
 Before you run, make note of the TODO's in the .cake files. These must be updated with your project information for this script to function. Here are some details regarding each TODO task:
@@ -28,6 +28,3 @@ To run the script:
 -Enter the following command:
 
   .\build.ps1 -Target TestRun --testslist=my_test_list.txt --buildconfig=App.Release.config
-  
-  
-Here is an outline of the test parameters, --testslist and --buildconfig
