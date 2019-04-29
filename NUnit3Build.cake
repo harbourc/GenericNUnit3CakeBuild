@@ -95,7 +95,7 @@ Task("BuildClean")
 .IsDependentOn("Clean")
 .IsDependentOn("Build");
 
- Task("UITests")
+ Task("TestRun")
  	.IsDependentOn("Build")
  	.Does(() =>
  	{
