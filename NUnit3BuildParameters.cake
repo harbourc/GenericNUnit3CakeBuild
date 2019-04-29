@@ -4,7 +4,7 @@ public class BuildParameters
 {
 	private ICakeContext Context;
 
-	//todo: Get these from environment variable or team city provider
+	//optional todo: Get these from environment variable or team city provider
 	public const string MsNugetFeed = "https://api.nuget.org/v3/index.json";
 
 	
